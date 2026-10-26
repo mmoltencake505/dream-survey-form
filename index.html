@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Patient Listener</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1 id="title">The Patient Listener</h1>
+
+    <p id="description">
+        This website listens to your weird dreams
+        (so you don't annoy your friends with them).
+    </p>
+
+    <form id="survey-form">
+
+        <label>Name</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your Email" required>
+
+        <label>Age (optional)</label>
+        <input type="number" placeholder="Age">
+
+        <div class="dream-row">
+
+            <label>
+                Which option best describes your current dreams?
+            </label>
+
+            <select>
+                <option>Select dream type</option>
+                <option>Recurring dreams</option>
+                <option>Nightmares</option>
+                <option>Lucid dreams</option>
+                <option>Daydreams</option>
+                <option>Progressive dreams</option>
+                <option>False awakenings</option>
+                <option>Prophetic dreams</option>
+                <option>Compensatory dreams</option>
+                <option>Shared dreams</option>
+                <option>Visitation dreams</option>
+                <option>Awkward dreams</option>
+                <option>Others</option>
+            </select>
+
+        </div>
+
+        <p>Do you remember your dream well?</p>
+
+        <label>
+            <input type="radio" name="remember">
+            Yes, I remember in details.
+        </label>
+
+        <label>
+            <input type="radio" name="remember">
+            I remember most of it.
+        </label>
+
+        <label>
+            <input type="radio" name="remember">
+            No, I only remember a few details.
+        </label>
+
+        <p>
+            How did you feel during the dream?
+            (Check all that apply)
+        </p>
+
+        <label><input type="checkbox"> Happy</label>
+        <label><input type="checkbox"> Sad</label>
+        <label><input type="checkbox"> Angry</label>
+        <label><input type="checkbox"> Surprised</label>
+        <label><input type="checkbox"> Tired</label>
+        <label><input type="checkbox"> Confused</label>
+        <label><input type="checkbox"> Suspicious</label>
+        <label><input type="checkbox"> Frightened</label>
+        <label><input type="checkbox"> Confident</label>
+        <label><input type="checkbox"> Sleepy</label>
+        <label><input type="checkbox"> Disgusted</label>
+        <label><input type="checkbox"> Embarrassed</label>
+        <label><input type="checkbox"> Disappointed</label>
+        <label><input type="checkbox"> Stunned</label>
+        <label><input type="checkbox"> Guilty</label>
+
+        <p>Please, tell me about your dream.</p>
+
+        <textarea
+            rows="4"
+            placeholder="Enter your dream here..."></textarea>
+
+        <br><br>
+
+        <button type="submit">
+            Submit
+        </button>
+
+    </form>
+
+</body>
+</html>
